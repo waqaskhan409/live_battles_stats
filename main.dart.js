@@ -68820,16 +68820,16 @@ n.push(A.b(["Name","Description","Battle date","Latitude","Longitude","Address",
 for(m=$.a0G,l=m.length,k=0;k<m.length;m.length===l||(0,A.B)(m),++k){j=m[k]
 i=j.b
 i.toString
-h=j.c
-h=B.d.aP((h.a*1e6+B.f.bJ(h.b,1000))/1000)
-g=new A.bK(h,!1)
-g.wu(h,!1)
-g=g.i(0)
 h=j.d
 h.toString
-f=j.e
-e=B.d.i(f.a)
-f=B.d.i(f.b)
+g=j.c
+g=B.d.aP((g.a*1e6+B.f.bJ(g.b,1000))/1000)
+f=new A.bK(g,!1)
+f.wu(g,!1)
+f=f.i(0)
+g=j.e
+e=B.d.i(g.a)
+g=B.d.i(g.b)
 d=j.f
 d.toString
 c=j.r
@@ -68839,7 +68839,7 @@ b=j.x
 b.toString
 a=j.y
 a.toString
-n.push(A.b([i,g,h,e,f,d,c,b,a],o))}p.Ax(B.wP.dR(n))
+n.push(A.b([i,h,f,e,g,d,c,b,a],o))}p.Ax(B.wP.dR(n))
 q=!0
 s=1
 break
